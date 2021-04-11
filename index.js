@@ -17,7 +17,7 @@ class Student extends User {
     super.getFullName();
   }
   getCourse(thisYear) {
-    if (thisYear < 2017) {
+    if (thisYear < 2016) {
       throw "СЛИШКОМ МАЛЕНЬКИЙ ГОД";
     } else {
       const course = this.year - thisYear;
